@@ -1,5 +1,9 @@
 const assert = require('assert');
 
+function capitalizeFirstLetters(input) {
+    const capInput = input.split(' ').map(element => element.charAt(0).toUpperCase() + element.substring(1));
+    return capInput.join(' ');
+}
 
 
 /* Commence par créer les tests, avec au moins trois cas de test :
