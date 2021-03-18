@@ -6,6 +6,8 @@ function capitalizeFirstLetters(input) {
 }
 
 
+
+
 /* Commence par créer les tests, avec au moins trois cas de test :
 une chaîne avec plusieurs mots
 une chaîne avec un seul mot (voire une seule lettre)
